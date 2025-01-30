@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/*cabeçalho*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.AnimacaoLogo:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.AnimacaoLogo {
+    transition: 0.3s;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #683f97;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #683f97;
+    color: #ffffff;
+    transform: scale3d(1.1, 1.1, 1)
+}
+
+.navigation a:hover {
+    transition: 0.3s;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    top: 0;
+
+}
+
+.cabeça {
+    display: inline-block;
+    margin: 70px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+a :hover {
+    color: rgb(201, 198, 198);
+    transition: 0.3s all;
+
+}
+
+
+header img {
+    width: 150px;
+    padding-left: 50px;
+    padding: 20px;
+}
+
+/* fim cabeçalho*/
+.forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #c790fb;
+    width: 1090px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 30px;
+    ;
+    font-size: 50px;
+    font-weight: bold;
+    color: #582A8E;
+    margin-bottom: 10px;
+}
+
+.message {
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.footer {
+    padding: 60px;
+    text-align: center;
+}
+
+.footer .p {
+    font-size: 20px;
+
+}
+
+.footer .frase {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.cta-button {
+    background-color: #582A8E;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3a0f56;
+}

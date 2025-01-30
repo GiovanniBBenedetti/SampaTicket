@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*cabeçalho*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #42206a;
+}
+a{
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #683f97;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #683f97;
+    color: #ffffff;
+    transform: scale3d(1.1, 1.1, 1)
+}
+
+.navigation a:hover {
+    transition: 0.3s;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    top: 0;
+
+}
+
+.cabeça {
+    display: inline-block;
+    margin: 70px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a :hover {
+    color: rgb(201, 198, 198);
+    transition: 0.3s all;
+
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 190px;
+    padding-left: 50px;
+    padding: 20px;
+}
+
+/* fim cabeçalho*/
+
+
+body>main {
+    background-color: rgb(223, 219, 219);
+    padding: 0 30px 30px;
+    
+}
+
+body>main .page-title {
+    font-size: 50px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+body>main .content {
+    display: flex;
+}
+
+body>main .content section {
+    flex: 1;
+}
+
+body>main .content>aside {
+    min-width: 300px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    border-bottom: 3px solid #eee;
+}
+
+table thead tr th {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+table tbody tr {
+    border-bottom: 3px solid #eee;
+}
+
+table tbody tr td {
+    padding: 30px 0;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product img {
+    border-radius: 6px;
+    width: 150px;
+}
+
+.product .info {
+    margin-left: 20px;
+}
+
+.product .info .name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product .info .category {
+    color: #666;
+}
+
+.product .info .Ingresso {
+    color: #666;
+}
+
+.qty {
+    background: #eee;
+    display: inline-flex;
+    padding: 0px 0px;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.qty span {
+    margin: 0 10px;
+}
+
+.qty button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    height: 100%;
+}
+
+.qty button:hover {
+    background: #ddd;
+}
+
+.remove {
+    background: #eee;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.remove:hover {
+    background: #ddd;
+}
+
+aside {
+    margin-left: 30px;
+
+}
+
+aside .box {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 20px;
+}
+
+aside .box .resumo {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    border-radius: 20px;
+}
+
+aside .box .info {
+    padding: 20px;
+}
+
+aside .box .info>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+aside .box .info>div:last-child {
+    margin: 0;
+}
+
+aside .box footer {
+    padding: 20px;
+    background: #ddd;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside button {
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    background: #582A8E;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+aside button a {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+aside button:hover {
+    background: #38096f;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+
+/*rodapé*/
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: o 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 25px;
+}
+
+.logotipo-rodape a img {
+    width: 240px;
+    margin-top: -5px;
+    margin-block-end: -50px;
+}
+
+.logotipo-rodape h6 {
+    font-size: 12px;
+    color: #42206a;
+    text-align: center;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: #42206a;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col2 {
+    margin-block-end: -20px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #42206a;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #683f97;
+    padding-left: 10px;
+}
+
+.footer-col .medias-sociais {
+    margin-top: 30px;
+}
+
+.footer-col .medias-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: 42206a;
+    border: 1px solid #42206a;
+    transition: all 0.5s ease;
+}
+
+.footer-col .medias-sociais a i {
+    font-size: 20px;
+}
+
+.footer-col .medias-sociais a:hover {
+    color: #ffffff;
+    background-color: #42206a;
+}
+
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #42206a;
+    background-color: #bda8c1;
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #42206a;
+}
+
+/* fim rodapé*/

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*cabeçalho*/
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(130, 11, 212);
+    background: linear-gradient(0deg, rgba(130, 11, 212, 1) 0%, rgba(36, 20, 54, 1) 100%);
+}
+
+.AnimacaoLogo:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.AnimacaoLogo {
+    transition: 0.3s;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #683f97;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #683f97;
+    color: #ffffff;
+    transform: scale3d(1.1, 1.1, 1)
+}
+
+.navigation a:hover {
+    transition: 0.3s;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    top: 0;
+
+}
+
+.cabeça {
+    display: inline-block;
+    margin: 70px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+a :hover {
+    color: rgb(201, 198, 198);
+    transition: 0.3s all;
+
+}
+
+
+header img {
+    width: 190px;
+    padding-left: 50px;
+    padding: 20px;
+}
+
+
+/* fim cabeçalho*/
+
+/* Card */
+.Container {
+    width: 240px;
+    height: 390px;
+    margin: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    background: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* Card Header*/
+.card-header {
+    width: 100%;
+    height: 40%;
+
+
+}
+
+.lista-artistas {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-imgBrunoMars {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*card body */
+.card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+.card-local {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.card-texto {
+    font-size: 12px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.card-footer {
+    margin-top: 0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.card-footer a {
+    display: block;
+    padding: -10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #42206a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* cores card */
+
+.card-estadio {
+    padding: 25px;
+}
+
+
+
+/*animacao card*/
+.Container:hover {
+    transform: scale3d(1.1, 1.1, 1);
+
+
+}
+
+/*rodapé*/
+* {
+
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    height: 373px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: o 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 25px;
+}
+
+.logotipo-rodape a img {
+    width: 240px;
+    margin-top: -5px;
+    margin-block-end: -50px;
+}
+
+.logotipo-rodape h6 {
+    font-size: 12px;
+    color: #42206a;
+    text-align: center;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: #42206a;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col2 {
+    margin-block-end: -20px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #42206a;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #683f97;
+    padding-left: 10px;
+}
+
+.footer-col .medias-sociais {
+    margin-top: 30px;
+}
+
+.footer-col .medias-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: 42206a;
+    border: 1px solid #42206a;
+    transition: all 0.5s ease;
+}
+
+.footer-col .medias-sociais a i {
+    font-size: 20px;
+}
+
+.footer-col .medias-sociais a:hover {
+    color: #ffffff;
+    background-color: #42206a;
+}
+
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #42206a;
+    background-color: #bda8c1;
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #42206a;
+}
